@@ -10,7 +10,6 @@ class Solution:
         if not matrix:
             return 0
         r, c =len(matrix), len(matrix[0])
-        kth = 0
         cnt = 0
         res = 0
         while cnt != k:
